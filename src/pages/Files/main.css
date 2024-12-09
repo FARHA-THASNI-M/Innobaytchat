@@ -1,0 +1,17 @@
+.ant-list-item-meta-title{
+    margin: 0 !important;
+}
+
+.ant-list-item-meta{
+    align-items: center !important;
+    height: 35px !important;
+}
+
+.ant-card-body{
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+

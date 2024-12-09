@@ -1,0 +1,81 @@
+.recording{
+    width: 90% !important;
+}
+
+.fileAttachments{
+    display: flex;
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 16px;
+    color: #000;
+    padding: 12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px #bebebe;
+    /* box-shadow: 2px 10px 25px -25px rgba(0, 0, 0, 0.75); */
+    background: transparent;
+}
+
+.rce-citem-body ::focus{
+        font-size: 34px !important;
+        font-weight: 600;
+}
+
+.rce-mlist{
+    /* align-items: center;
+        background: #fff;
+        border-radius: 100%;
+        bottom: 15px;
+        box-shadow: 0 1px 1px 0 #0000000d, 0 2px 5px 0 #0000001a;
+        color: #333;
+        cursor: pointer;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        position: absolute;
+        right: 10px; */
+        transition: .2s;
+        /* width: 40px */
+}
+
+.current-chat{
+    background: #f0f2f5  !important;
+
+    .rce-citem{
+        background: none !important;
+    }
+      
+}
+
+.rce-mlist{
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 0;
+}
+
+.rce-container-mbox{
+    overflow-x: unset !important;
+
+}
+
+.message-list-container {
+    position: relative !important;
+    overflow-y: auto !important;
+    /* height: 100%; */
+    /* or a specific height, e.g., 400px */
+}
+
+.message-list-container .message-list {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    /* Ensures the latest messages are at the bottom */
+}
+
+
+.date-label {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    /* font-weight: bold; */
+}

@@ -1,0 +1,21 @@
+.darkgrayfont{
+    font-size: 20px;
+    color: #000;
+}
+
+.subsectionfont{
+    color: #24292F;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.subsectionContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 0.2px solid #aaa;
+    border-radius: 5px;
+    margin: 20px 0;
+}

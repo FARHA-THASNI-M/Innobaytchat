@@ -1,0 +1,53 @@
+.projectHeading{
+    margin:0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.breadhCrum{
+    color: #1C1C1C66;
+}
+
+.projectDuration {
+    margin: 6px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: #787486;
+}
+
+.selectItem{
+    color: #6B7280;
+}
+
+.inputBox{
+    max-width: "300px";
+    width: 300;
+}
+
+.ant-select-selector{
+    border:none
+}
+
+.collapse{
+background-color: #FAFBFC;
+border-bottom: 10px solid #fff !important;
+border-top: 10px solid #fff !important;
+}
+.subCollapse {
+    background-color: #FAFBFC;
+    border-bottom: 10px solid #fff !important;
+    border-top: 10px solid #fff !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ant-collapse-content {
+    background-color: #fff;
+}

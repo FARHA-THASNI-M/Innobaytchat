@@ -1,0 +1,33 @@
+/* Input{
+    width: 100%;
+    height: 43px;
+}
+
+.selector{
+    height: 43px;
+}
+
+label{
+    font-weight: 600;
+} */
+
+.ant-space-item{
+height: 45px;
+}
+
+.ant-card-body{
+    padding: 15px;
+}
+.card{
+    margin-bottom: 10px;
+}
+
+.timeline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colScroll{
+    overflow: auto;
+    max-height: 500px;
+}

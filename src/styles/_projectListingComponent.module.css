@@ -1,0 +1,41 @@
+
+.projectlistingmaincomponent {
+    background:#FFF;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+    cursor:pointer
+}
+
+
+.cardsectionsrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    max-width: 80%
+}
+
+.cardsectionnamecontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+    max-width: 80%;
+}
+
+.blueborderbubble{
+    padding: 3px 8px;
+    color: #FFF;
+    background: #0084FF;
+    border-radius: 15px;
+    font-size: 14px;
+}

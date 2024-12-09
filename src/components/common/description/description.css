@@ -1,0 +1,7 @@
+.ql-container.ql-snow {
+    height: auto;
+}
+.ql-editor {
+    height: 100px;
+    overflow-y: scroll;
+}

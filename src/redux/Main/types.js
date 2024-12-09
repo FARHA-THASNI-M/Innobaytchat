@@ -1,0 +1,31 @@
+// COMMON
+export const SET_LOADING = "SET_LOADING";
+
+export const AUTH_USER = "AUTH_USER";
+// export const UPDATE_AUTH_USER = "UPDATE_AUTH_USER";
+export const RESET_AUTH_USER = "RESET_AUTH_USER";
+
+// Permission
+export const SET_PERMISSIONS = "SET_PERMISSIONS";
+export const RESET_PERMISSIONS = "RESET_PERMISSIONS";
+
+// Configuration
+export const SET_CONFIG = "SET_CONFIG";
+export const RESET_CONFIG = "RESET_CONFIG";
+
+// Lookup master
+export const SET_LOOKUP = "SET_LOOKUP";
+export const RESET_LOOKUP = "RESET_LOOKUP";
+
+// fetch substasks 
+export const FETCH_SUBTASK_BY_TASKID_REQUEST = "FETCH_SUBTASK_BY_TASKID_REQUEST"
+export const FETCH_SUBTASK_BY_TASKID_ERROR = "FETCH_SUBTASK_BY_TASKID_ERROR"
+export const FETCH_SUBTASK_BY_TASKID_SUCCESS = "FETCH_SUBTASK_BY_TASKID_SUCCESS"
+export const PREPARE_KANBAN_DATA="PREPARE_KANBAN_DATA"
+
+// project 
+export const SET_CURRENT_PROJECT = "SET_CURRENT_PROJECT";
+
+// recent projects
+export const SET_RECENT_PROJECTS = "SET_RECENT_PROJECTS";
+export const SET_PROJECT_FILES = "SET_PROJECT_FILES";

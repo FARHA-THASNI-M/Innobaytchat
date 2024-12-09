@@ -1,0 +1,28 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .login-form {
+    width: 450px;
+    padding: 20px;
+
+  }
+  
+  
+  .login-form-button {
+    width: 100%;
+    background-color: #EC2027;
+  }
+  
+  .login-form-forgot {
+    float: right;
+  }
+  
+  .login-form-register {
+    text-align: center;
+  }
+  

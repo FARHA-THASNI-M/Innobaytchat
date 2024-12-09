@@ -1,0 +1,49 @@
+.categoryHeading{
+    margin: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1C1C1C;
+}
+
+.fileName{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1C1C1C;
+    align-items: center;
+    
+    
+}
+
+.fileDecription{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1C1C1C66;
+    margin: 0;
+}
+
+.listMeta{
+    display: flex;
+    align-items: center !important;
+    margin: 0 !important;
+}
+
+.fileScrollView{
+    overflow: auto;
+    height: 78vh;
+}
